@@ -159,6 +159,31 @@ overflow: hidden;
 .box i{
     margin-bottom: 10px;
 }
+/*about-info*/
+#about-info .info-right{
+float:right;
+width: 50%;
+min-height: 100%;
+}
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width:70%;
+
+}
+#about-info .info-left{
+    float:left;
+    width:50%;
+    min-height: 100%;
+}
+
+.py1{padding:10px 0;}
+.py2{padding:20px 0;}
+.py3{padding:30px 0;}
+
+
+
+
 
 #main-footer{
     text-align: center;
@@ -166,3 +191,4 @@ overflow: hidden;
     color: #f4f4f4;
     padding: 20px; 
 }
+
