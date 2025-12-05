@@ -115,7 +115,7 @@ p{
 #home-info .info-img{
     float:left;
     width:50%;
-    background: url('Palm Tree Icon.jpeg') 
+    background: url('pexels-serra-nur-kaynak-2156630399-35061351.jpg') 
     no-repeat center center;
     background-size: cover;
     height: 100%;
@@ -130,17 +130,39 @@ overflow: hidden;
 }
 .bg-dark{
     background: #333;
-    color:white;
+    color:#fff;
 }
 .bg-light{
-    background: white;
+    background: #f4f4f4;
     color:#333;
 
 }
 .bg-primary{
-    background: #333;
-    color:#f7c08a;
+    color: #333;
+    background:#f7c08a;
+}
+
+.clr{
+    clear:both;
 }
 #home-info .info-content p{
     padding-bottom: 30px;
+}
+
+/*features*/
+.box{
+    float:left;
+    width:33.3%;
+    padding:50px;
+    text-align: center;
+}
+.box i{
+    margin-bottom: 10px;
+}
+
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: #f4f4f4;
+    padding: 20px; 
 }
