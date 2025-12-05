@@ -103,8 +103,8 @@ p{
     color:#333
 }
 .btn-light{
-    background: #f4f4f4;
-    color:white;
+    background: white;
+    color:#333
 }
 
 /*home info*/
@@ -115,9 +115,10 @@ p{
 #home-info .info-img{
     float:left;
     width:50%;
-    background: url('WhatsApp Image 2025-12-05 at 18.58.51_2d518627.jpg') 
-    no-repeat center center/cover;
-    min-height: 100%;
+    background: url('Palm Tree Icon.jpeg') 
+    no-repeat center center;
+    background-size: cover;
+    height: 100%;
 }
 #home-info .info-content{
     float:right;
