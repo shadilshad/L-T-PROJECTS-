@@ -229,3 +229,112 @@ min-height: 100%;
     padding: 20px; 
 }
 
+
+
+
+/*contact*/
+/* Contact Section Wrapper */
+#hov{
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    border: 1px solid #eee;
+    opacity: 0.9;
+        transition: transform 0.2s; /* smooth hover */
+
+}
+#hov:hover {
+    transform: scale(1.05); /* slightly bigger */
+}
+.box a{
+    color:#fff;
+    text-decoration: none;
+    background-color: #eee;
+    padding: 15px;
+    border-radius: 10px;
+    color: #444;
+}
+
+
+#co {
+    background: url('download (1).jpeg') no-repeat center center;
+    background-size: cover;      /* makes image cover the entire area */
+    background-attachment: fixed; /* optional: gives parallax effect */
+    background-position: center;
+    min-height: 500px;           /* adjust based on your design */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+/* Title */
+#hov h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Input Groups */
+#hov .form-group {
+    margin-bottom: 22px;
+}
+
+/* Labels */
+#hov label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #444;
+}
+
+/* Inputs + Textarea */
+#hov input,
+#hov textarea {
+    width: 100%;
+    padding: 14px;
+    font-size: 15px;
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    background: #fafafa;
+    transition: all 0.3s ease;
+}
+
+/* Textarea height */
+#hov textarea {
+    height: 180px;
+}
+
+/* Focus animation */
+#hov input:focus,
+#hov textarea:focus {
+    background: #fff;
+    border-color: #f7c08a;
+    box-shadow: 0 0 6px rgba(247,192,138,0.6);
+    outline: none;
+}
+
+/* Submit button */
+#hov button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    background: #f7c08a;
+    border: none;
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #333;
+}
+
+#hov button:hover {
+    background: #e3ab6d;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(247,192,138,0.4);
+}
