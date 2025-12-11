@@ -1,0 +1,12 @@
+{
+    "editor.suggest.showKeywords": false,
+    "html.autoCreateQuotes": true,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.suggest.selectionMode": "always",
+    "html.suggest.hideEndTagSuggestions": true,
+    "html.format.indentInnerHtml": true,
+    "editor.experimental.preferTreeSitter.css": true,
+    "editor.quickSuggestions": {
+        "comments": "on"
+    }
+}
